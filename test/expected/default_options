@@ -1,0 +1,4 @@
+angular.module("files",[])
+.constant({"list":[{"name":"item_1", "url":"/fixtures/testing"},
+{"name":"item_2", "url":"/fixtures/123"}
+]});

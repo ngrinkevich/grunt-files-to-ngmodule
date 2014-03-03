@@ -1,0 +1,39 @@
+{
+  "name": "grunt-files-to-ngmodule",
+  "version": "0.1.0",
+  "description": "Simple grunt plugin to create a list of files and write to a angularjs module",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ngrinkevich/grunt-files-to-ngmodule.git"
+  },
+  "homepage": "https://github.com/ngrinkevich/grunt-files-to-ngmodule",
+  "author": {
+    "name": "Nik G",
+    "email": "nikgrinkevich@gmail.com"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ngrinkevich/grunt-files-to-ngmodule/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-jshint": "~0.2.0",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt": "~0.4.0rc2",
+    "jshint-stylish": "~0.1.3",
+    "load-grunt-tasks": "~0.2.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+  
+}
