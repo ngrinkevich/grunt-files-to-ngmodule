@@ -10,7 +10,7 @@
 
 module.exports = function (grunt) {
 
-  grunt.registerMultiTask('files_to_ng_module', 'Simple plugin to create a list of files', function () {
+  grunt.registerMultiTask('files_to_ngmodule', 'Simple plugin to create a list of files', function () {
 
     var options = this.options({
       moduleName: 'files',
